@@ -13,13 +13,7 @@ import UIKit
 class GuillotineView: UIView {
     
     override func draw(_ rect: CGRect) {
-        //        let maskForBox = CAShapeLayer()
-        //        let maskForBoxPath = UIBezierPath(rect: CGRect(x: 0, y: 0, width: 25, height: 25))
-        //        maskForBox.path = maskForBoxPath.cgPath
-        //        layer.mask = maskForBox
-        //
-        
-        let shapePath = UIBezierPath()
+     let shapePath = UIBezierPath()
         shapePath.lineWidth = 0.5
         shapePath.move(to: CGPoint(x: 0, y: 0))
         shapePath.addLine(to: CGPoint(x: 25, y: 0))
